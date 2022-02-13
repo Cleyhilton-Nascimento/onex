@@ -78,7 +78,7 @@ elif [ `command -v apt` ]; then
 elif [ `command -v apt-get` ]; then
   pac="apt-get"
   system="linux"
-elif [ `command -v apk` ]; then
+elif [ `command - apk` ]; then
   pac="apk"
   system="linux"
 elif [ `command -v yum` ]; then
@@ -1290,7 +1290,7 @@ if [ $# -eq 1 ]; then
       cli_remove
     ;;
     help|-h)
-      echo "${yellow}Onex ${red} v0.1"
+      echo "${yellow}Onex ${red} 0.1"
       echo "${nc}Usage ${nc}: ${yellow} onex ${nc}[option]... [toolname]...${nc}"
       echo "\n  ${blue}Option  \tDescription${nc}"
       echo "  -----------  \t--------------------"
